@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class TodoModel extends Model
 {
+    use HasFactory;
+    
     protected $table = 'todo';
 
     protected $fillable = [
